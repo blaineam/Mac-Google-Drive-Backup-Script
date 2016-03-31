@@ -144,6 +144,7 @@ then
 echo "repairing permissions"
 echo 
     sudo chown -R $(id -un):staff /Users/Cloud
+    sudo chmod -R 775 /Users/Cloud
 fi
 
 
